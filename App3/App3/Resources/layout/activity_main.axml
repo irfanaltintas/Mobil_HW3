@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:alignmentMode="alignBounds"
+    android:background="#eed5d3"
+    android:columnCount="4"
+    android:columnOrderPreserved="false"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:useDefaultMargins="true" >
+	
+	<ImageView
+		android:src="@drawable/p1"
+		android:id="@+id/ımageView1"/>
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Ahmet Arslan"		
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="aarsl@anadolu"	
+			android:layout_rowSpan="1"
+			android:id="@+id/Mail1"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+	<ImageView
+		android:src="@drawable/p2"
+		android:id="@+id/ımageView2" />
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Yaşar Hoscan"				
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="hoscan@anadolu"		
+			android:id="@+id/Mail2"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+	<Button
+		android:text="CALL"
+		android:id="@+id/button1"/>
+	<Button
+		android:text="EMail"
+		android:id="@+id/SendButton1" />
+	<Button
+		android:text="Call"
+		android:id="@+id/button3" />
+	<Button
+		android:text="Email"
+		android:id="@+id/SendButton2" />
+	<ImageView
+		android:src="@drawable/p3"
+		android:id="@+id/ımageView3" />
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Serkan Günal"		
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="gunal@anadolu"		
+			android:id="@+id/Mail3"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+	<ImageView
+		android:src="@drawable/p4"
+		android:id="@+id/ımageView4" />
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Cihan Kaleli"			
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="cihan@nadolu"		
+			android:id="@+id/Mail4"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+	<Button
+		android:text="Call"
+		android:id="@+id/button5" />
+	<Button
+		android:text="Email"
+		android:id="@+id/SendButton3" />
+	<Button
+		android:text="Call"
+		android:id="@+id/button7" />
+	<Button
+		android:text="Email"
+		android:id="@+id/SendButton4" />
+	<ImageView
+		android:src="@drawable/p5"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/ımageView1"/>
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Alper Uysal"			
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="uysal@anadolu"		
+			android:id="@+id/Mail5"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+		<ImageView
+		android:src="@drawable/p6"
+		android:id="@+id/ımageView4" />
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Alper Bilge"	
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="bilge@anadolu"		
+			android:id="@+id/Mail6"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+		<Button
+		android:text="Call"
+		android:id="@+id/button5" />
+	<Button
+		android:text="Email"
+		android:id="@+id/SendButton5" />
+	<Button
+		android:text="Call"
+		android:id="@+id/button7" />
+	<Button
+		android:text="Email"
+		android:id="@+id/SendButton6" />
+	<ImageView
+		android:src="@drawable/p7"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/ımageView1"/>
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Sevcan Yilmaz"			
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="sevcan@anadolu"		
+			android:id="@+id/Mail7"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+		<ImageView
+		android:src="@drawable/p8"
+		android:id="@+id/ımageView4" />
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:rowCount="2">
+		<TextView
+			android:text="Burcu Yurekli"		
+			android:layout_row="0"
+			android:layout_column="0"/>
+		<TextView
+			android:text="burcu@anadolu"		
+			android:id="@+id/Mail8"
+			android:layout_row="1"
+			android:layout_column="0"/>
+	</GridLayout>
+		<Button
+		android:text="Call"
+		android:id="@+id/button5" />
+	<Button
+		android:text="Email"
+		android:id="@+id/SendButton7" />
+	<Button
+		android:text="call"
+		android:id="@+id/button7" />
+	<Button
+		android:text="email"
+		android:id="@+id/SendButton8" />
+	
+</GridLayout>
+	</ScrollView>
